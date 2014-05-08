@@ -1,0 +1,61 @@
+.au_ {
+    padding:10px;
+    box-sizing: border-box;
+    padding: .7em .5em;
+    border-radius: 3px;
+    font-family:"Segoe UI";
+}
+
+/* button */
+.au_input{
+    text-align: right;
+    background: rgba(255,255,255,.75);
+    border: 1px solid rgba(175, 175, 175, 0.38);
+    font-weight: bold;
+}
+.au_btn{
+    margin:10px 0;
+    text-align: center;    
+    color: white;
+    border: none;
+}
+
+/* Height / Width */
+.au_fw {
+    width: 100%;
+}
+.au_hw {
+    width: 50%;
+}
+.au_100w {
+    width: 100px;
+}
+.au_200w {
+    width: 200px;
+}
+.au_400w {
+    width: 400px;
+}
+.au_600w {
+    width: 600px;
+}
+.au_100h {
+    height: 100px;
+}
+.au_150h {
+    height: 150px;
+}
+.au_200h {
+    height: 200px;
+}
+
+/* Color */
+.au_c_b {
+    background: rgb(60, 117, 221);    
+}
+.au_c_r {
+    background: rgb(218, 21, 21);
+}
+.au_c_g {
+    background: rgb(2, 151, 14);
+}
