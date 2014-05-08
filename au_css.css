@@ -5,6 +5,9 @@
     border-radius: 3px;
     font-family:"Segoe UI";
 }
+.au_:focus {
+    outline: none;
+}
 
 /* button */
 .au_input{
