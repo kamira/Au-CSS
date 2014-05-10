@@ -22,55 +22,55 @@
 }
 
 /* element - class */
-.au_init .au_input{
+.au_init .input{
     text-align: right;
     background: rgba(255,255,255,.75);
     border: 1px solid rgba(175, 175, 175, 0.38);
     font-weight: bold;
 }
-.au_init .au_btn{
+.au_init .btn{
     margin:10px 0;
     text-align: center;    
     color: white;
     border: none;
 }
-.au_init .au_div {
+.au_init .div {
     border: 1px solid rgba(213, 213, 213, 0.49);
     background: rgba(233, 233, 233, 0.1);
 }
 
 /* Height / Width */
-.au_fw {
+.fw {
     width: 100%;
 }
-.au_hw {
+.hw {
     width: 50%;
 }
-.au_100w {
+.100w {
     width: 100px;
 }
-.au_200w {
+.200w {
     width: 200px;
 }
-.au_300w {
+.300w {
     width: 300px;
 }
-.au_400w {
+.400w {
     width: 400px;
 }
-.au_500w {
+.500w {
     width: 500px;
 }
-.au_600w {
+.600w {
     width: 600px;
 }
-.au_100h {
+.100h {
     height: 100px;
 }
-.au_150h {
+.150h {
     height: 150px;
 }
-.au_200h {
+.200h {
     height: 200px;
 }
 
