@@ -3,6 +3,7 @@
     padding: .7em 1.2em;
     border-radius: 3px;
     font-family:"Segoe UI";
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.22);
 }
 .au_init:focus, .au_init *:focus {
     outline: none;
@@ -34,43 +35,44 @@
     color: white;
     border: none;
 }
-.au_init .div {
+.au_init.div,.au_init .div {
     border: 1px solid rgba(213, 213, 213, 0.49);
-    background: rgba(233, 233, 233, 0.1);
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0 0 30px 10px rgba(255, 255, 255, 0.33);
 }
 
 /* Height / Width */
-.fw {
+.wf {
     width: 100%;
 }
-.hw {
+.wh {
     width: 50%;
 }
-.100w {
+.w100 {
     width: 100px;
 }
-.200w {
+.w200 {
     width: 200px;
 }
-.300w {
+.w300 {
     width: 300px;
 }
-.400w {
+.w400 {
     width: 400px;
 }
-.500w {
+.w500 {
     width: 500px;
 }
-.600w {
+.w600 {
     width: 600px;
 }
-.100h {
+.h100 {
     height: 100px;
 }
-.150h {
+.h150 {
     height: 150px;
 }
-.200h {
+.h200 {
     height: 200px;
 }
 
