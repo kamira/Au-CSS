@@ -76,10 +76,44 @@
             color: #9da0a4;
             border-radius: 4px 0 4px 0;
         }
+        .bs-docs-demo {
+            position: relative;
+            margin: 15px 0;
+            padding: 39px 19px 14px;
+            background-color: rgba(255, 255, 255, 0.43);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .bs-docs-demo:after {
+            content: "Demo";
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            padding: 3px 7px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            color: #9da0a4;
+            border-radius: 4px 0 4px 0;
+        }
         </style>
     </head>
     <body>
         <header>Au CSS</header>
+<br />
+                <div class="bs-docs-demo">
+                    <div id='Authenticate' class='au_init div 400w'>
+                        <h1>Authenticate</h1>
+                        <h2>Credential</h2>
+                        <div class='au_div au_fw'>
+                            <input type="text" name="acc" id="acc" placeholder="Account" required="required" class='input fw' /><br />
+                            <input type="password" name="pwd" id="pwd" placeholder="Password" required="required" class='input fw' /><br />
+                        </div>
+                        <button class="btn c_b fw">Submit</button>
+                    </div>
+                </div>
+<br />
         <div class="container">
             <div class='cell'>
                 <h2>Init</h2>
