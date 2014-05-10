@@ -75,12 +75,12 @@
 }
 
 /* Color */
-.au_init .c_b {
+.au_init .btn.c_b {
     background: rgb(60, 117, 221);    
 }
-.au_init .c_r {
+.au_init .btn.c_r {
     background: rgb(218, 21, 21);
 }
-.au_init .c_g {
+.au_init .btn.c_g {
     background: rgb(2, 151, 14);
 }
