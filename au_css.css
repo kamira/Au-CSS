@@ -22,19 +22,19 @@
 }
 
 /* element - class */
-.au_input{
+.au_init .au_input{
     text-align: right;
     background: rgba(255,255,255,.75);
     border: 1px solid rgba(175, 175, 175, 0.38);
     font-weight: bold;
 }
-.au_btn{
+.au_init .au_btn{
     margin:10px 0;
     text-align: center;    
     color: white;
     border: none;
 }
-.au_div {
+.au_init .au_div {
     border: 1px solid rgba(213, 213, 213, 0.49);
     background: rgba(233, 233, 233, 0.1);
 }
@@ -75,12 +75,12 @@
 }
 
 /* Color */
-.au_c_b {
+.au_init .c_b {
     background: rgb(60, 117, 221);    
 }
-.au_c_r {
+.au_init .c_r {
     background: rgb(218, 21, 21);
 }
-.au_c_g {
+.au_init .c_g {
     background: rgb(2, 151, 14);
 }
