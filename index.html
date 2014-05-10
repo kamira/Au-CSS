@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Au CSS / Kamira / github</title>
+        <link href="au_css.css" rel="stylesheet">
+        <style type="text/css">
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333333;
+            background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%) fixed;
+        }
+        h1, h2, h3 {
+            line-height: 40px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 10px 0;
+            font-family: inherit;
+            font-weight: bold;
+            line-height: 20px;
+            color: inherit;
+            text-rendering: optimizelegibility;
+        }
+        header {
+            width: 30%;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 80px;
+            font-size: 64pt;
+            font-weight: bold;
+        }
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            width:500px;
+        }       
+        .cell {
+            padding: 15px 0 66px 0;
+            border-top: 1px solid rgba(194, 33, 33, 0.38);
+        }
+        code {  
+            padding: 2px 4px;
+            color: #d14;
+            white-space: nowrap;
+            background-color: #f7f7f9;
+            border: 1px solid #e1e1e8;
+            font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+            font-size: 12px;
+            border-radius: 3px;
+        }
+        .bs-docs-example {
+            position: relative;
+            margin: 15px 0;
+            padding: 39px 19px 14px;
+            background-color: rgba(255, 255, 255, 0.43);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .bs-docs-example:after {
+            content: "Example";
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            padding: 3px 7px;
+            font-size: 12px;
+            font-weight: bold;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            color: #9da0a4;
+            border-radius: 4px 0 4px 0;
+        }
+        </style>
+    </head>
+    <body>
+        <header>Au CSS</header>
+        <div class="container">
+            <div class='cell'>
+                <h2>Init</h2>
+                <p></p>
+                <div class="bs-docs-example">
+                    <div class="au_init">Sample</div>
+                </div>
+            </div>
+            <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ -->
+            <div class='cell'>
+                <h2>Heading</h2>
+                <p><code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> are available.</p>
+                <div class="bs-docs-example">
+                    <div class="au_init">
+                        <h1>h1. Heading 1</h1>
+                        <h2>h2. Heading 2</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ -->
+            <div class='cell'>
+                <h2>Inputs</h2>
+                <p><code>.input</code> to implement.</p>
+                <h3>Options</h3>
+                <p>Width: <code>fw</code> / <code>hw</code> / <code>100w</code>...etc</p>
+                <p>Height: <code>100h</code> / <code>150h</code> / <code>200h</code>...etc</p>
+                <div class="bs-docs-example">
+                    <div class="au_init">
+                        <input type="text" placeholder="Account" class='input'><br>
+                        <input type="password" placeholder="Password" class='input'>
+                    </div>
+                </div>
+            </div>
+            <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ -->
+            <div class='cell'>
+                <h2>Button</h2>
+                <p><code>.btn</code> to implement.</p>
+                <h3>Options</h3>
+                <p>Color: <code>c_r</code> / <code>c_g</code> / <code>c_b</code></p>
+                <p>Width: <code>fw</code> / <code>hw</code> / <code>100w</code>...etc</p>
+                <p>Height: <code>100h</code> / <code>150h</code> / <code>200h</code>...etc</p>
+                <div class="bs-docs-example">
+                    <div class="au_init">
+                        <button type="submit" class="btn c_b fw">Submit</button><br>
+                        <button type="submit" class="btn c_r hw">Submit</button><br>
+                        <button type="submit" class="btn c_g 100w">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <!-- _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ -->
+        </div>
+
+    </body>
+</html>
